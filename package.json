@@ -1,0 +1,53 @@
+{
+  "name": "vermity-frontend",
+  "version": "0.0.0",
+  "scripts": {
+    "format": "prettier .  --write",
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@mdi/font": "7.4.47",
+    "@types/js-cookie": "^3.0.6",
+    "@types/uuid": "^10.0.0",
+    "@volar/language-server": "2.4.0-alpha.18",
+    "@vue/language-server": "2.0.28",
+    "axios": "^1.7.2",
+    "core-js": "^3.34.0",
+    "js-cookie": "^3.0.5",
+    "jwt-decode": "^4.0.0",
+    "lodash": "^4.17.21",
+    "material-design-icons-iconfont": "^6.7.0",
+    "pinia": "^2.1.7",
+    "prettier": "^3.3.2",
+    "roboto-fontface": "*",
+    "uuid": "^10.0.0",
+    "vue": "^3.4.21",
+    "vuetify": "^3.5.8"
+  },
+  "devDependencies": {
+    "@babel/types": "^7.24.0",
+    "@types/lodash": "^4.17.7",
+    "@types/node": "^20.11.25",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/eslint-config-typescript": "^13.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-vue": "^9.22.0",
+    "sass": "^1.71.1",
+    "typescript": "^5.4.2",
+    "unplugin-fonts": "^1.1.1",
+    "unplugin-vue-components": "^0.26.0",
+    "unplugin-vue-router": "^0.8.4",
+    "vite": "^5.1.5",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vue-router": "^4.3.0",
+    "vue-tsc": "^2.0.6"
+  }
+}

@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  vermity-frontend:
+    container_name: vermity-frontend
+    build:
+      context: .
+      args:
+        - VITE_API_URL=http://localhost:8081
+    ports:
+      - "9914:80"
