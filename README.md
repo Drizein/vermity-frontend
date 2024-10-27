@@ -1,3 +1,29 @@
+# Vermity
+Vermity is a simple and easy-to-use building management system. This project represents the front end of the application.
+
+### Installation
+
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/yourusername/vermity-frontend.git
+    cd vermity-frontend
+    ```
+
+### Running with Docker Compose
+
+1. **Build and start the services:**
+    ```sh
+    docker-compose up -d
+    ```
+
+2. **Access the application:**
+    - frontend: `http://localhost:9914`
+
+### Configuration
+
+The application can be configured using environment variables defined in the `compose.yaml` file. Remember to set the backend URL.
+
+
 # Vuetify (Default)
 
 This is the official scaffolding tool for Vuetify, designed to give you a head start in building your new Vuetify application. It sets up a base template with all the necessary configurations and standard directory structure, enabling you to begin development without the hassle of setting up the project from scratch.
